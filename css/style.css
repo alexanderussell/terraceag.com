@@ -1,0 +1,72 @@
+
+
+
+.sans-serif {
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont,'avenir next', avenir,'helvetica neue',helvetica,ubuntu,roboto, noto,'segoe ui', arial, sans-serif;
+}
+
+.primary {
+  color: #5DC160;
+}
+
+.bg-primary {
+  background-color: #5DC160;
+}
+
+.bg-light-primary {
+  background-color: rgba(93,193,96,0.4);
+}
+
+.b--primary {
+  border-color: #5DC160;
+}
+
+.hover-bg-primary:hover {
+  background-color: #5DC160;
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 5px rgba(73, 73, 73, 0.15);
+  outline: none;
+}
+
+#header {
+  margin-bottom: 0px;
+}
+
+#hero-graphic {
+  margin-top: -200px;
+}
+
+@media screen and (min-width : 320px) and (max-width : 768px) {
+  #header {
+    margin-bottom: 0;
+  }
+  #hero-graphic {
+    display: none;
+  }
+}
+
+@media screen and (min-width : 768px) and (max-width : 960px) {
+  #header {
+    margin-bottom: 0px;
+  }
+  #hero-graphic {
+    margin-top: -100px;
+  }
+}
+
+@media screen and (min-width : 960px) and (max-width : 1200px) {
+  #header {
+    margin-bottom: 0px;
+  }
+  #hero-graphic {
+    margin-top: -180px;
+  }
+}
+
+
+
+
+
+
